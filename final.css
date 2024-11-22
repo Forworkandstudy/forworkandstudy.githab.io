@@ -84,7 +84,7 @@ nav a:hover {
 hr {
     width: 80%; /* Длина линии */
     margin: 0 auto; /* Центрирование по горизонтали */
-  border: 1.5px solid #2b47d9; /* Толщина и цвет линии */
+    border: 1.5px solid #2b47d9; /* Толщина и цвет линии */
 }
 .services {
     display: flex;
@@ -165,9 +165,11 @@ hr {
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 1500px;
-    width: 100%;
+    max-width: 1200px;
+    width: 200%;
     display: flex;
+    justify-content: center;
+
 }
 .contact-info {
     background-color: #00BCD4;
@@ -189,7 +191,7 @@ hr {
     text-align: center;
 }
 .contact-building {
-    width: 100%;
+    width: 50%;
     background: url('https://a.travelcdn.mts.ru/property-photos/1633728227/2347900126/50ebf41a69b30cbc1e5ddd9979ac0c9d30c0ee5c.jpeg?width=1024&fit=bounds&quality=75') no-repeat center center/cover;
 }
 .footer{
